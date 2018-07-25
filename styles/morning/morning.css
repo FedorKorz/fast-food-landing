@@ -1,0 +1,72 @@
+.morning__logo {
+    background-image: url(file:///C:/Users/1361219/Desktop/web/projects/super-duper/styles/logo/morning.jpg);  
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 870px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slogan_cursive {
+    font-family: 'Satisfy', cursive; 
+    font-size: 40px;
+    color: #E66F24;
+    text-align: center;
+}
+
+.breakfest-menu__head {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+
+.breakfest-menu__coins {
+    text-align: center; 
+}
+
+.breakfest-menu__check {
+    text-align: center; 
+}
+
+.breakfest-menu__head {
+    position: relative;
+    text-align: center;  
+    color: gray;
+    font-weight: 400;
+}
+
+.breakfest-menu__head::after, .breakfest-menu__head::before   {
+    content: "";
+    position: absolute;
+    height: 15px;
+    border-bottom: 1px solid white;
+    width: 400px;
+}
+
+.breakfest-menu__head::after {
+    left: 6%;
+} 
+
+.breakfest-menu__head::before {
+    right: 6%;
+}
+
+.sub_head {
+    display: block;
+    text-align: center;
+    color: #E66F24;
+    font-weight: 500;
+    font-size: 20px;   
+}
+
+.item__consist b, .cols__text b {
+    color: gray;
+    font-weight: 500;
+    font-size: 17px; 
+}
+
+.about-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}

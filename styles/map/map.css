@@ -1,0 +1,35 @@
+.stub {
+    padding-top: 150px; 
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-locations__head {
+    padding-left: 200px; 
+    font-family: 'Knewave', cursive;
+    font-size: 40px;
+    color: #E66F24;
+}
+
+.container-locations__submit-form {
+    color: #E66F24;
+    margin-left: 200px;
+}
+
+.submit-form__button button {
+    width: 200px;
+    height: 40px;
+}
+
+#mail {
+    width: 196px;
+    height: 30px;
+    margin-bottom: 20px; 
+}
+
+.submit-form__head {
+    font-family: 'Knewave', cursive;    
+    font-size: 40px;
+}

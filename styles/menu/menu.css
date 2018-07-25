@@ -1,0 +1,44 @@
+.menu__head {
+    text-align: center;
+    font-size: 120px;
+    font-weight: 700;
+    color: #E66F24;
+    margin-top: 0px;
+    padding-top: 30px; 
+}
+
+.menu-list {
+    display: flex;
+}
+
+.sub-header__line {
+    display: block;
+    background-color: black; 
+    width: 230px;
+    height: 1px;
+    margin-top: 10px; 
+    margin-bottom: 10px; 
+}
+
+.food-item__description {
+    font-weight: 400;
+    color: #E66F24; 
+}
+
+.food-item__consist {
+    list-style: none;
+    margin-left: -20px; 
+}
+
+.food-item__consist li:hover {
+    cursor: pointer;
+    color: #E66F24; 
+    transition: .15s;
+}
+
+.coins__head {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    color: #E66F24;
+}

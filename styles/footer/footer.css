@@ -1,0 +1,19 @@
+.page__footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #E5E5E5;
+}
+
+.social-links__local-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-links__local-links a {
+    padding: 10px;
+}
+
+.social-links__local-links a:hover {
+    color: #E66F24;
+    cursor: pointer;
+}
