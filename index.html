@@ -3,45 +3,57 @@
   <head>
     <meta charset="utf-8">
     <meta name = "viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="styles/background/background.css">
-    <link rel="stylesheet" type="text/css" href="styles/menu/menu.css"> 
-    <link rel="stylesheet" type="text/css" href="styles/header/header.css">
-    <link rel="stylesheet" type="text/css" href="styles/footer/footer.css">
-    <link rel="stylesheet" type="text/css" href="styles/morning/morning.css">
-    <link rel="stylesheet" type="text/css" href="styles/overall/overall.css">
-    <link rel="stylesheet" type="text/css" href="styles/map/map.css">
-    <link rel="stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css"> 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link rel = "stylesheet" type="text/css" href="styles/background/background.css">
+    <link rel = "stylesheet" type="text/css" href="styles/menu/menu.css">
+    <link rel = "stylesheet" type="text/css" href="styles/header/header.css">
+    <link rel = "stylesheet" type="text/css" href="styles/footer/footer.css">
+    <link rel = "stylesheet" type="text/css" href="styles/morning/morning.css">
+    <link rel = "stylesheet" type="text/css" href="styles/overall/overall.css">
+    <link rel = "stylesheet" type="text/css" href="styles/map/map.css">
+    <link rel = "stylesheet" type="text/css" href="styles/header/popup.css">
+    <link rel = "stylesheet" type="text/css" href="styles/style.css">
+    <link rel = "stylesheet" type="text/css" href="./node_modules/normalize.css/normalize.css">
+    <link href = "https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href = "https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+    <link href = "./bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <script src = "jquery-3.3.1.min.js"></script>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "jquery-3.3.1.min.js"></script>
+    <script src = "https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src = "https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
     <body class = "page">
         <header class = "page__header">
-            <nav class="header">
+            <nav class = "header">
                 <div class = "header__logo">
                     <a class = "logo__item"><img src = "./styles/super_duper_burgers_logo.png"/></a>
                 </div>
                 <ul class = "header__links">
                     <li class = "links__link">
-                        <a href = "#" class = "link">Menu</a>    
+                        <a href = "#" class = "link">Menu</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">About</a> 
+                        <a href = "#" class = "link">About</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">Locations</a>    
+                        <a href = "#" class = "link">Locations</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">News</a>     
+                        <a href = "#" class = "link">News</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">Media</a>    
+                        <a href = "#" class = "link">Media</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">Jobs</a>    
+                        <a href = "#" class = "link">Jobs</a>
                     </li>
                     <li class = "links__link">
-                        <a href = "#" class = "link">FAQ</a>    
-                    </li>        
+                        <a href = "#" class = "link">FAQ</a>
+                    </li>
+                    <li class = "links__link">
+                        <a id = "login" class = "link" >Log in</a>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -52,11 +64,11 @@
             <div class = "menu-list">
                 <div class = "menu-list__cols">
                     <div class = "cols">
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                             <section class = "food-item__sub-header">
                                 <div class = "sub-header">Toppings</div>
                                 <div class = "sub-header__line"></div>
-                            </section>    
+                            </section>
                             <section>
                                 <div class = "food-item__description">The Free Stuff</div>
                                     <ul class = "food-item__consist">
@@ -69,11 +81,11 @@
                                     </ul>
                             </section>
                         </section>
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                             <section class = "food-item__sub-header">
                                 <div class = "sub-header">Toppings</div>
                                 <div class = "sub-header__line"></div>
-                            </section>    
+                            </section>
                             <section>
                                 <div class = "food-item__description">The Free Stuff</div>
                                     <ul class = "food-item__consist">
@@ -86,11 +98,11 @@
                                     </ul>
                             </section>
                         </section>
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                             <section class = "food-item__sub-header">
                                 <div class = "sub-header">Toppings</div>
                                 <div class = "sub-header__line"></div>
-                            </section>    
+                            </section>
                             <section>
                                 <div class = "food-item__description">The Free Stuff</div>
                                     <ul class = "food-item__consist">
@@ -103,11 +115,11 @@
                                     </ul>
                             </section>
                         </section>
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                             <section class = "food-item__sub-header">
                                 <div class = "sub-header">Toppings</div>
                                 <div class = "sub-header__line"></div>
-                            </section>    
+                            </section>
                             <section>
                                 <div class = "food-item__description">The Free Stuff</div>
                                     <ul class = "food-item__consist">
@@ -120,11 +132,11 @@
                                     </ul>
                             </section>
                         </section>
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                             <section class = "food-item__sub-header">
                                 <div class = "sub-header">Toppings</div>
                                 <div class = "sub-header__line"></div>
-                            </section>    
+                            </section>
                             <section>
                                 <div class = "food-item__description">The Free Stuff</div>
                                     <ul class = "food-item__consist">
@@ -137,11 +149,11 @@
                                     </ul>
                             </section>
                         </section>
-                        <section class = "cols__food-item">
+                        <section class = "span3">
                         <section class = "food-item__sub-header">
                             <div class = "sub-header">Toppings</div>
                             <div class = "sub-header__line"></div>
-                        </section>    
+                        </section>
                         <section>
                             <div class = "food-item__description">The Free Stuff</div>
                                 <ul class = "food-item__consist">
@@ -154,12 +166,11 @@
                                 </ul>
                         </section>
                     </section>
-                
-                    <section class = "cols__food-item">
+                    <section class = "span3">
                         <section class = "food-item__sub-header">
                             <div class = "sub-header">Toppings</div>
                             <div class = "sub-header__line"></div>
-                        </section>    
+                        </section>
                         <section>
                             <div class = "food-item__description">The Free Stuff</div>
                                 <ul class = "food-item__consist">
@@ -172,11 +183,11 @@
                                 </ul>
                         </section>
                     </section>
-                    <section class = "cols__food-item">
+                    <section class = "span3">
                         <section class = "food-item__sub-header">
                             <div class = "sub-header">Toppings</div>
                             <div class = "sub-header__line"></div>
-                        </section>    
+                        </section>
                         <section>
                             <div class = "food-item__description">The Free Stuff</div>
                                 <ul class = "food-item__consist">
@@ -189,9 +200,8 @@
                                 </ul>
                         </section>
                     </section>
-                    </div>            
+                    </div>
                 </div>
-            <!-- КОНЕЦ ПРАВОЙ КОЛОНКИ -->
             </div>
         </div>
         <div class = "page__background background_dounts">
@@ -206,7 +216,7 @@
                     <span class = "cols__text left">
                         <b>Say good morning to the new breakfast sandwich</b><br/>
                         Just as we give great thought and care to the food<br/>
-                        we prepare for lunch and dinner, the same goes for <br/> 
+                        we prepare for lunch and dinner, the same goes for <br/>
                         breakfast. Super Duper’s breakfast sandwiches are <br/>
                         made using farm-fresh organic eggs, cheddar, and your <br/>
                         choice of bacon or sausage. For something sweet, we offer <br/>
@@ -216,9 +226,9 @@
                     </span>
                     <span class = "cols__text right">
                         <b>About our donuts</b><br/>
-                        We make our donuts fresh each morning using <br/>  
+                        We make our donuts fresh each morning using <br/>
                         a super-secret recipe and an old-fashioned donut machine. <br/>
-                        They come dressed in a dusting  of cinnamon sugar, a sugar  <br/> 
+                        They come dressed in a dusting  of cinnamon sugar, a sugar  <br/>
                         glaze or a chocolate glaze. Rushing to your morning meeting? <br/>
                         Let us know and we’ll box ’em up to go!<br/>
                     </span>
@@ -230,7 +240,7 @@
                 Please check our locations page for availability.</p>
                 <div class = "cols">
                     <section class = "cols__item">
-                        <div class = "cols__consist">             
+                        <div class = "cols__consist">
                             <b>Organic Egg Sandwich</b> <br/>
                             with Sausage Cheese 5.00 <br/>
                             with Bacon Cheese 5.00 <br/>
@@ -278,28 +288,28 @@
                     <span class = "small__about-blockstext">
                         <b>Step into any Super Duper Burger</b>, and you’ll <br/>
                         notice we’re different. From our famous (free) house-made <br/>
-                        pickles, to the hand-painted signage, to our <br/> 
-                        cheerful staff, we build our restaurants <br/> 
+                        pickles, to the hand-painted signage, to our <br/>
+                        cheerful staff, we build our restaurants <br/>
                         like we build our burgers—sustainably, locally, and <br/>
                         with an unwavering commitment to quality. <br/>
                         We work with local designers, sign painters, <br/>
                         and artisans because it reduces our <br/>
                         carbon footprint, and, frankly, because <br/>
                         they’re some of the best in the world.<br/>
-                    </span>        
+                    </span>
                 </section>
                 <section class = "about-blocks__small-block left">
                     <h2 class = "small-block sub_head">Not a slogan, a promise</h2>
                     <span class = "small__text">
                         <b></b>Fresh, quality produce, meat, dairy and buns</b>, <br/>
-                        sourced from partners located just miles from <br/> 
-                        our restaurants, are the ingredients to making <br/> 
-                        the perfect burger. This commitment to creating <br/> 
-                        the best possible food for our guests affects the <br/> 
+                        sourced from partners located just miles from <br/>
+                        our restaurants, are the ingredients to making <br/>
+                        the perfect burger. This commitment to creating <br/>
+                        the best possible food for our guests affects the <br/>
                         price, and the higher cost is a direct reflection <br/>
                         of our promise of creating fast food <br/>
                         burgers using slow food values. <br/>
-                    </span>        
+                    </span>
                 </section>
                 <section class = "about-blocks__small-block right">
                     <h2 class = "small-block sub_head">Not a slogan, a promise</h2>
@@ -307,7 +317,7 @@
                         <b>All of our packaging is 100% compostable</b>. In fact, we’ve <br/>
                         worked so hard at it, we don’t even <br/>
                         have trash cans — just recycling and compost! <br/>
-                    </span>        
+                    </span>
                 </section>
                 <div class = "about-blocks__small-block right">
                     <img class = "img" alt = "super duper sign painting" src = "./styles/other images/super_duper_sign_painting.jpg"/ width="400px" height="300px">
@@ -454,7 +464,7 @@
                     <div class="submit-form__button">
                         <button type="submit">Submit</button>
                     </div>
-                </form> 
+                </form>
             </div> -->
         </div>
         <footer class = "page__footer">
@@ -474,5 +484,15 @@
                 </ul>
             </div>
         </footer>
+        <script src = "./scripts/sand-blind.js"></script>
+        <script src = "./scripts/login-popup.js"></script>
     </body>
+    <div id = "dialog" title = "">
+        <form class = "dialog__form" action = "">
+            <h3 class = "dialog__login">Login...</h3>
+            <input  class = "dialog__username-input" type = "text" placeholder = "username">
+            <input class = "dialog__password-input" type = "text" placeholder = "password">
+            <a class = "dialog__submit">Войти...</a>
+        </form> 
+    </div>
 </html>

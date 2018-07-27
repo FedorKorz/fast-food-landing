@@ -7,14 +7,11 @@
 }
 
 .header__links {
-    width: 700px;
-    display: flex;
-    margin-left: auto; 
     list-style-type: none;
 }
 
 .links__link {
-    float: left;
+    float: right;
 }
 
 .header {
@@ -26,4 +23,11 @@
     position: absolute;
     left: 210px;
     top: -10px;
+}
+
+#login {
+    padding-top: 20px;
+    border: none;
+    background: #f7f7f7;   
+    cursor: pointer; 
 }

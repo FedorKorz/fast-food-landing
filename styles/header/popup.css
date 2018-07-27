@@ -1,0 +1,33 @@
+.login-popup .ui-dialog-content {
+    background: #f7f7ff;
+    position: fixed;
+    border-radius: 12px;
+}
+
+.login-popup {
+    outline: none;
+}
+
+.login-popup button {
+    color: #f7f7ff;
+    font: bold;
+    position: fixed;
+    background: #f7f7ff;
+    outline: none;
+    border: none;
+    left: 800px;
+    width: 23px;
+    border-radius: 18px;
+    background-color: firebrick;
+}
+
+.dialog__form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.dialog__submit {
+    display: inline;
+    cursor: pointer;
+}
