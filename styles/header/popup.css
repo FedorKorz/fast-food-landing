@@ -1,6 +1,5 @@
 .login-popup .ui-dialog-content {
     background: #f7f7ff;
-    position: fixed;
     border-radius: 12px;
 }
 
@@ -11,7 +10,6 @@
 .login-popup button {
     color: #f7f7ff;
     font: bold;
-    position: fixed;
     background: #f7f7ff;
     outline: none;
     border: none;

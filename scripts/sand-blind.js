@@ -1,15 +1,25 @@
 let $dark = false;
 
 $("#login").click(function() {
-
+    console.log("dialog clicked")
     $( "#dialog" ).dialog({ 
       autoOpen: false,
       dialogClass: 'login-popup',
       closeText: "x",
-      draggable: false,
+      position: {
+        my: "center middle",
+        at: "center middle",
+        of: window,
+        collision: "none"
+      },
+      create: function (event, ui) {
+        $(event.target).parent().css('position', 'fixed');  
+      }  
     });
+    
     $("#login").click(function() {
       $("#dialog").dialog("open");
+      return false;
     });
 
     $("#login").click(function() {
