@@ -1,0 +1,23 @@
+.carousel__slide_1, .carousel__slide_2,
+.carousel__slide_3, .carousel__slide_5,
+.carousel__slide_5, .carousel__slide_6 {
+    width: 540px;
+    margin: auto;
+    margin: 30px;
+}
+
+div {
+    outline: none;
+}
+
+.carousel-slides {
+    height: 300px;
+}
+
+.col {
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}

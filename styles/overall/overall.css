@@ -29,6 +29,8 @@
 }
 
 .sub-header {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
     font-size: 27px;
     font-weight: 500;
     color: #E66F24;
