@@ -7,6 +7,7 @@ fast-food-landing
 
 Структура проекта. 
 -----------------------------------
+`
 ├── index.html
 ├── node_modules
 │   └── normalize.css
@@ -43,7 +44,7 @@ fast-food-landing
     ├── overall
     ├── pixel_perfect
     └── style.css
-
+`
 Список использованных технологий
 -----------------------------------
 * Jquery
