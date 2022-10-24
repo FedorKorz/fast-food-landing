@@ -44,3 +44,4 @@ Structure
     └── style.css
 ```
 
+![image](https://user-images.githubusercontent.com/25134996/197523831-7dc9b54c-50cd-4235-abc3-10d2e251430c.png)
