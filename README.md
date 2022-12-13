@@ -2,6 +2,9 @@ fast-food-landing
 ===================
 ***
 
+Description 
+
+Landing is a template built by Ant Motion's motion components. It has a rich homepage template, downloads the template code package, and can be used quickly. You can also use the editor to quickly build your own dedicated page.
 
 Structure 
 -----------------------------------
